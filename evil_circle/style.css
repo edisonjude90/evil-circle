@@ -1,0 +1,47 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: 0px;
+  right: 5px;
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+h2{
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: 33px;
+  right: 63px;
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+#win-message{
+    font-size: 10rem;
+    letter-spacing: -1px;
+    position: absolute;
+    margin: 0;
+    top: 68px;
+    left: 72px;
+    color: transparent;
+    text-shadow: 0 0 4px white;
+    display: none;
+}
